@@ -1,0 +1,28 @@
+
+<div class="container mt-4">
+    <h1>Employee Table</h1>
+    <table class="table">
+        <thead> 
+            <tr>
+                <th scope="col">Sr. No</th>
+                <th scope="col">Employee Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Address</th>
+                <th scope="col">Phone number</th> 
+                <th scope="col">Password (encrypted)</th> 
+            </tr>
+        </thead>
+         
+        <tbody>
+            <tr *ngFor="let empObj of employeeArray, let i=index;">
+                <td>{{i+1 }}</td>
+                <td>{{empObj.name }}</td>
+                <td>{{empObj.email }}</td>
+                <td>{{empObj.address }}</td>
+                <td>{{empObj.phonenumber }}</td>
+                <td>{{empObj.password }}</td>
+                 
+            </tr>
+        </tbody>
+    </table>
+</div>

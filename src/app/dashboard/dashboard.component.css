@@ -1,0 +1,32 @@
+body {
+    /* margin: 0; */
+    /* padding: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #222;
+    overflow: hidden;
+    animation: changeBackground 8s linear infinite;
+}
+ 
+
+.welcome-text {
+    background: linear-gradient(45deg, #921767, cyan, #940d45);
+    background-size: 200% 200%;
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+    animation: backgroundChange 1s linear infinite;
+}
+
+/* h1 {
+    font-size: 2em;
+
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 0;
+} */
